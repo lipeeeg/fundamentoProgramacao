@@ -1,33 +1,30 @@
 
 /**
- * Escreva uma descrição da classe Blackjack aqui.
+ * Jogo 21 desenvolvido na aula de Fundamendos da Programação.
  * 
- * @author (seu nome) 
- * @version (um número da versão ou uma data)
+ * @author Felipe Rodrigues / felipe.rodrigues@edu.pucrs.br
+ * @version 1.0
  */
-public class Blackjack
-{
-    // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
-    private int x;
 
-    /**
-     * Construtor para objetos da classe Blackjack
-     */
-    public Blackjack()
-    {
-        // inicializa variáveis de instância
-        x = 0;
-    }
+import java.util.Scanner;
+import java.util.Random;
 
-    /**
-     * Um exemplo de um método - substitua este comentário pelo seu próprio
-     * 
-     * @param  y   um exemplo de um parâmetro de método
-     * @return     a soma de x e y 
-     */
-    public int sampleMethod(int y)
-    {
-        // escreva seu código aqui
-        return x + y;
+public class Blackjack {
+    
+    public static void main(String [] args) {
+        Scanner sc;
+        Random r;
+        int c1, c2;
+        
+        r = new Random();
+        
+        c1 = 1 + r.nextInt(13);
+        c2 = 1 + r.nextInt(13);
+        
+        
+        
+        
+        
+        
     }
 }
