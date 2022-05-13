@@ -15,16 +15,24 @@ public class Blackjack {
         Scanner sc;
         Random r;
         int c1, c2;
+        int h1, h2;
         
         r = new Random();
         
         c1 = 1 + r.nextInt(13);
         c2 = 1 + r.nextInt(13);
         
+        h1 = 1 + r.nextInt(13);
+        h2 = 1 + r.nextInt(13);
         
+        System.out.printf("COMPUTADOR%n");
+        System.out.printf("Carta 1: %d%n",c1);
+        System.out.printf("carta 2: %d%n",c2);
+        System.out.printf("Total: %d%n",c1 + c2);
         
-        
-        
-        
+        System.out.printf("HUMANO%n");
+        System.out.printf("Carta 1: %d%n",h1);
+        System.out.printf("carta 2: %d%n",h2);
+        System.out.printf("Total: %d%n",h1 + h2);
     }
 }
